@@ -33,3 +33,22 @@ main {
     padding: 2em;
     border-right: 0.5px solid lightgray;
 }
+
+@media screen and (max-width:825px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mainLeft {
+        border: none
+    }
+}
+
+@media screen and (max-width:560px) {
+
+    body {
+        font-size: 14px
+    }
+}
